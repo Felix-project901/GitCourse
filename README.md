@@ -48,7 +48,7 @@ Wysyła lokalne commity na zdalny serwer (np. GitHub).
 
 ### `git fetch`
 
-Pobiera informacje o zmianach ze zdalnego repo, ale nie scala ich z lokalnym kodem.
+Pobiera informacje o zmianach ze zdalnego repo, ale nie scala ich z lokalnym kodem.    
 Po `git fetch` możesz zobaczyć różnice komendą `git diff main origin/main`
 
 ### `git pull`
@@ -63,9 +63,9 @@ To samo co `git push`, ale nadpisuje historię na serwerze nawet jeśli jest roz
 
 Cofa stan repozytorium.
 Tryby:
-`--soft HEAD~1` `zmiany wracają do staged` `pliki bez zmian`
-`--mixed HEAD~1` `(domyślny) zmiany wracają do unstaged` `pliki bez zmian`
-`--hard HEAD~1` `staging wyczyszczony` `pliki zostają cofnięte a zmiany utracone`
+`--soft HEAD~1` zmiany wracają do staged pliki bez zmian
+`--mixed HEAD~1 (domyślny)` zmiany wracają do unstaged pliki bez zmian
+`--hard HEAD~1` staging wyczyszczony pliki zostają cofnięte a zmiany utracone
 
 ## Zdalne repozytoria
 
